@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+  <head>
+    <link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2019-08-12T02:58:13.49/select2/select2.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/css/:version:2019-08-12T02:58:13.45/main.min.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2019-08-12T02:58:13.49/font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/ckanext-geoview/:version:2019-06-26T02:18:05.26/css/geo-resource-styles.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/ckanext-harvest/:version:2019-06-26T02:20:08.88/styles/harvest.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/pages/:version:2020-04-14T13:16:26.53/:bundle:css/bootstrap.css;css/medium-editor.css" />
+
+    <meta charset="utf-8" />
+      <meta name="generator" content="ckan 2.8.3" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infant Deaths in Pakistan Urban Areas 2018-2020 - Datasets - Open Data Pakistan</title>
+
+    
+    
+    <link rel="shortcut icon" href="/base/images/ckan.ico" />
+    
+
+    <!--[if IE]>
+    <script src="/classList.min.js"></script>
+    <![endif]-->
+
+    
+    
+    
+    
+    
+
+    
+  
+    
+      
+    
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/css/custom_styles.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet"> 
+
+  
+
+    
+
+
+    
+      
+      
+    
+  
+  <meta property="og:title" content="Infant Deaths in Pakistan Urban Areas 2018-2020 - Open Data Pakistan">
+  <meta property="og:description" content="Infant Deaths in Pakistan Urban Areas 2018-2020">
+<style>
+        .navbar.navbar-default.navbar-static-top {
+    z-index: auto;
+}
+
+@media (max-width:1000px) { 
+    .navbar-brand.navbar-image > img{
+        height: 100%
+    }
+}
+      </style>
+    
+  </head>
+
+  
+  <body data-site-root="https://opendata.com.pk/" data-locale-root="https://opendata.com.pk/" >
+
+    
+    <div class="hide"><a href="#content">Skip to content</a></div>
+  
+
+  
+    <script>
+    window.onload = function(e){
+        let ID = window.location.pathname.substr(1)
+        if(ID){
+            let elem = document.getElementById(ID)
+            if (elem){
+                elem.className = "options-underline option-activated hidden-xs";
+            }
+        }
+    }
+</script>
+ 
+<header class="account-masthead">
+  <div class="container">
+     
+    <nav class="account not-authed">
+      <ul class="list-unstyled">
+        
+        <li><a href="/user/login">Log in</a></li>
+         
+      </ul>
+    </nav>
+     
+  </div>
+</header>
+
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand navbar-image" href="/"><img src="/uploads/admin/2019-12-17-163606.430565logo.png" alt="Open Data Pakistan" title="Open Data Pakistan"></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-button"><a href="/dataset">Data <span class="sr-only">(current)</span></a>
+                        <hr id="dataset" class="options-underline hidden-xs" align="center"/>
+                    </li>
+                    <li class="nav-button"><a href="/organization">Organizations</a>
+                        <hr id="organization" class="options-underline hidden-xs" align="center"/>
+                    </li>
+                    <li class="nav-button"><a href="/showcase">Showcase</a>
+                        <hr id="showcase" class="options-underline hidden-xs" align="center"/>
+                    </li>
+                    <li class="nav-button"><a href="/blog">Blog</a>
+                        <hr id="blog" class="options-underline hidden-xs" align="center"/>
+                    </li>
+                    <li class="nav-button"><a href="/contact">Connect</a>
+                        <hr id="contact" class="options-underline hidden-xs" align="center"/>
+                    </li>
+          
+          
+                    <li class="nav-button dropdown">
+                    <a  href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/pages/covid19">COVID19 Hackathon</a></li>
+                        <li><a href="/pages/datathon-pakistan-data-weekend">Datathon</a></li>
+			<li><a href="/pages/data-viz-challenge">DATA VIZ Challenge</a></li>
+                    </ul>
+                    <hr id="about" class="options-underline hidden-xs" align="center"/>
+                    </li>
+          
+          
+                    <li class="nav-button dropdown">
+                    <a  href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/pages/guidelines">Guidelines</a></li>
+                    </ul>
+                    <hr id="about" class="options-underline hidden-xs" align="center"/>
+                    </li>
+          
+          
+                </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
+
+
+  
+    <div role="main">
+      <div id="content" class="container">
+        
+          
+            <div class="flash-messages">
+              
+                
+              
+            </div>
+          
+
+          
+            <div class="toolbar hidden-xs hidden-sm">
+              
+                
+                  <ol class="breadcrumb">
+                    
+<li class="home"><a href="/"><i class="fa fa-home"></i><span> Home</span></a></li>
+                    
+  
+    
+    
+      
+      
+      <li><a href="/organization">Organizations</a></li>
+      <li><a href="/organization/pakistan-bureau-of-statistics-pbs">Pakistan Bureau of ...</a></li>
+    
+    <li class="active"><a class=" active" href="/dataset/infant-deaths-in-pakistan-urban-areas-2018-2020">Infant Deaths in Pakistan ...</a></li>
+  
+
+                  </ol>
+                
+              
+            </div>
+          
+
+          <div class="row-fluid wrapper">
+            
+            
+            
+
+            
+              <aside class="secondary col-sm-3">
+                
+                
+
+  
+
+  
+    
+
+  
+    <section class="module module-narrow">
+      <div class="module context-info">
+        <div class="module-content">
+          
+            
+              <h1 class="heading">Infant Deaths in Pakistan Urban Areas 2018-2020</h1>
+            
+            
+            
+          
+        </div>
+      </div>
+    </section>
+  
+
+  
+
+  
+    
+      
+      
+
+
+
+
+  
+  <div class="module module-narrow module-shallow context-info">
+    
+      <h2 class="module-heading"><i class="fa fa-building-o"></i> Organization</h2>
+    
+    <section class="module-content">
+      
+      
+        <div class="image">
+          <a href="/organization/pakistan-bureau-of-statistics-pbs">
+            <img src="https://opendata.com.pk/uploads/group/2020-02-02-162120.205220Pakistan-Bureau-of-Statistics.jpg" width="200" alt="pakistan-bureau-of-statistics-pbs" />
+          </a>
+        </div>
+      
+      
+      <h1 class="heading">Pakistan Bureau of Statistics (PBS)
+        
+      </h1>
+      
+      
+
+  <hr>
+  <p>
+    Pakistan Bureau of Statistics (PBS) is the prime official agency of Pakistan, responsible for collection, compilation and dissemination of reliable and timely statistical...
+    <a href="/organization/about/pakistan-bureau-of-statistics-pbs">read more</a>
+  </p>
+
+
+      
+      
+    </section>
+  </div>
+  
+
+    
+  
+
+  
+    
+
+  <section class="module module-narrow social">
+    
+      <h2 class="module-heading"><i class="fa fa-share-square-o"></i> Social</h2>
+    
+    
+      <ul class="nav nav-simple">
+        <li class="nav-item"><a href="https://twitter.com/share?url=https://opendata.com.pk/dataset/infant-deaths-in-pakistan-urban-areas-2018-2020" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+        <li class="nav-item"><a href="https://www.facebook.com/sharer.php?u=https://opendata.com.pk/dataset/infant-deaths-in-pakistan-urban-areas-2018-2020" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+      </ul>
+    
+  </section>
+
+  
+
+  
+    
+
+
+  
+    
+  
+
+  
+
+    
+
+  <section class="module module-narrow social">
+  <h2 class="module-heading"><i class="fa fa-envelope-open"></i> Publisher Email</h2>
+    <div style="padding: 13px">
+      <a href = "mailto: pbs@pbs.gov.pk">pbs@pbs.gov.pk</a>
+    </div>
+   </section>
+  
+
+  <section class="module module-narrow social">
+    <h2 class="module-heading"><i class="fa fa-paperclip"></i> Similar Datasets</h2>
+  
+    <ul class="dataset-list list-unstyled" style="padding: 13px !important">
+        
+      
+              
+
+              
+
+                  
+
+
+
+
+
+
+  <div class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h4 class="data-head">
+            
+              
+            
+            
+              <a href="/dataset/pwds-outlet-wise-usage-of-contraceptive-in-terms-of-cyp-2021-22">PWDs outlet-wise usage of contraceptive in terms of cyp 2021-22</a>
+            
+            
+              
+              
+            
+          </h4>
+            <!-- <h5 class="pull-right"> Last Updated: 2024-03-22</h5> -->
+
+        
+        
+          
+        
+        
+          
+            <div class="simple-description">PWDs outlet-wise usage of contraceptive in terms of cyp 2021-22</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/pwds-outlet-wise-usage-of-contraceptive-in-terms-of-cyp-2021-22" class="label label-default" data-format="csv">CSV</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </div>
+
+
+              
+        
+
+              
+
+                  
+
+
+
+
+
+
+  <div class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h4 class="data-head">
+            
+              
+            
+            
+              <a href="/dataset/contraceptive-usage-by-method-pwds-2021-22">Contraceptive usage by method (pwds) 2021-22</a>
+            
+            
+              
+              
+            
+          </h4>
+            <!-- <h5 class="pull-right"> Last Updated: 2024-03-22</h5> -->
+
+        
+        
+          
+        
+        
+          
+            <div class="simple-description">Contraceptive usage by method (pwds) 2021-22</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/contraceptive-usage-by-method-pwds-2021-22" class="label label-default" data-format="csv">CSV</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </div>
+
+
+              
+        
+
+              
+
+                  
+
+
+
+
+
+
+  <div class="dataset-item">
+    
+      <div class="dataset-content">
+        
+          <h4 class="data-head">
+            
+              
+            
+            
+              <a href="/dataset/contraceptive-usage-by-method-ngos-or-csos-2021-22">Contraceptive usage by method (ngos or csos) 2021-22</a>
+            
+            
+              
+              
+            
+          </h4>
+            <!-- <h5 class="pull-right"> Last Updated: 2024-03-22</h5> -->
+
+        
+        
+          
+        
+        
+          
+            <div class="simple-description">Contraceptive usage by method (ngos or csos) 2021-22</div>
+          
+        
+      </div>
+      
+        
+          
+            <ul class="dataset-resources list-unstyled">
+              
+                
+                <li>
+                  <a href="/dataset/contraceptive-usage-by-method-ngos-or-csos-2021-22" class="label label-default" data-format="csv">CSV</a>
+                </li>
+                
+              
+            </ul>
+          
+        
+      
+    
+  </div>
+
+
+              
+        
+      
+      
+    </ul>
+  </section>
+
+              </aside>
+            
+
+            
+              <div class="primary col-sm-9 col-xs-12">
+                
+                
+                  <article class="module">
+                    
+                      <header class="module-content page-header">
+                        
+                        <ul class="nav nav-tabs">
+                          
+  <li class="active"><a href="/dataset/infant-deaths-in-pakistan-urban-areas-2018-2020"><i class="fa fa-sitemap"></i> Dataset</a></li>
+  <li><a href="/dataset/activity/infant-deaths-in-pakistan-urban-areas-2018-2020"><i class="fa fa-clock-o"></i> Activity Stream</a></li>
+
+                        </ul>
+                      </header>
+                    
+                    <div class="module-content">
+                      
+                      
+  
+    
+      
+    
+
+  
+    
+    
+      
+    
+    <h1>
+      
+        Infant Deaths in Pakistan Urban Areas 2018-2020
+        
+        
+      
+    </h1>
+    
+      
+        <div class="notes embedded-content">
+          <p>Infant Deaths in Pakistan Urban Areas 2018-2020</p>
+        </div>
+      
+    
+    
+    <span class="insert-comment-thread"></span>
+  
+
+
+  
+    
+  <section class="tags">
+    
+
+
+  <ul class="tag-list well">
+    
+      <li>
+        <a class="tag" href="/dataset?tags=Infant+Deaths">Infant Deaths</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset?tags=Pakistan">Pakistan</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset?tags=Urban">Urban</a>
+      </li>
+    
+  </ul>
+
+  </section>
+
+  
+
+  
+    
+<section id="dataset-resources" class="resources">
+  <h3>Data and Resources</h3>
+  
+    
+      <ul class="resource-list">
+        
+          
+          
+            
+
+
+<li class="resource-item" data-id="a91e0fc5-846b-449b-a5e6-942bd00858d8">
+  <div class="resource-preview">
+    <div class= "resource-description"">
+        
+        <strong>
+        <a class="hidden-sm hidden-xs heading" href="/dataset/infant-deaths-in-pakistan-urban-areas-2018-2020/resource/a91e0fc5-846b-449b-a5e6-942bd00858d8" title="Infant Deaths in Pakistan Urban Areas 2018-2020.xlsx">
+            <span class="ds-format format-label" property="dc:format" data-format="xlsx">
+            XLSX
+            </span>
+            Infant Deaths in Pakistan Urban Areas ...
+            
+
+        </a>
+        <a onclick="alert('Visualization is disabled for small screen sizes')" class="heading hidden-lg hidden-md" disabled title="Infant Deaths in Pakistan Urban Areas 2018-2020.xlsx">
+            <span class="ds-format format-label" property="dc:format" data-format="xlsx">
+            XLSX
+            </span>
+            Infant Deaths in Pakistan Urban Areas ...
+            
+
+        </a>
+        </strong>
+        
+        
+            <p class="description">
+            
+            </p>
+        
+    </div>
+    <div class="resource-actions">
+        
+        
+                
+                    <a class="btn btn-primary resource-actions-option" href="https://opendata.com.pk/dataset/7de41521-98ff-425b-950b-8c39a0751194/resource/a91e0fc5-846b-449b-a5e6-942bd00858d8/download/infant-deaths-in-pakistan-urban-areas-2018-2020.xlsx" class="resource-url-analytics" target="_blank">
+                    
+                        <i class="fa fa-arrow-circle-o-down"></i>
+                        Download
+                    
+                    </a>
+                
+                
+                <a class="btn btn-primary hidden-sm hidden-xs resource-actions-option" href="/dataset/infant-deaths-in-pakistan-urban-areas-2018-2020/resource/a91e0fc5-846b-449b-a5e6-942bd00858d8">
+                
+                    <i class="fa fa-bar-chart-o"></i>
+                    Preview
+                
+                </a>
+        
+        
+    </div>
+  </div>
+</li>
+          
+        
+      </ul>
+    
+    
+</section>
+  
+
+
+  
+    <section class="additional-info">
+  <h3>Additional Info</h3>
+  <table class="table table-striped table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th scope="col">Field</th>
+        <th scope="col">Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        
+          <tr>
+            <th scope="row" class="dataset-label">Source</th>
+            
+              <td class="dataset-details" property="foaf:homepage"><a href="https://www.pbs.gov.pk/publication/pakistan-demographic-survey-2020" rel="foaf:homepage" target="_blank">https://www.pbs.gov.pk/publication/pakistan-demographic-survey-2020</a></td>
+            
+          </tr>
+        
+         
+        
+          <tr>
+            <th scope="row" class="dataset-label">Author</th>
+            <td class="dataset-details" property="dc:creator">Pakistan Bureau of Statistics</td>
+          </tr>
+        
+
+        
+
+        
+
+        
+        
+          <tr>
+            <th scope="row" class="dataset-label">Last Updated</th>
+            <td class="dataset-details">
+                
+<span class="automatic-local-datetime" data-datetime="2023-04-10T23:30:10+0000">
+    April 10, 2023, 23:30 (UTC)
+</span>
+            </td>
+          </tr>
+        
+        
+          <tr>
+            <th scope="row" class="dataset-label">Created</th>
+
+            <td class="dataset-details">
+                
+<span class="automatic-local-datetime" data-datetime="2023-03-27T08:46:37+0000">
+    March 27, 2023, 08:46 (UTC)
+</span>
+            </td>
+          </tr>
+        
+
+      
+        
+    <tr>
+      <th scope="row" class="dataset-label">Publisher</th>
+      <td class="dataset-details">Pakistan Bureau of Statistics</td>
+    </tr>
+  
+   
+    <tr>
+      <th scope="row" class="dataset-label">Data Type</th>
+      <td class="dataset-details">non-geospatial</td>
+    </tr>
+  
+  
+    <tr>
+      <th scope="row" class="dataset-label">Data Source</th>
+      <td class="dataset-details">Secondary Research</td>
+    </tr>
+  
+  
+    <tr>
+      <th scope="row" class="dataset-label">Organization Type</th>
+      <td class="dataset-details">Federal government</td>
+    </tr>
+  
+    
+    <tr>
+      <th scope="row" class="dataset-label">Category</th>
+      <td class="dataset-details">Health</td>
+    </tr>
+  
+    
+
+        
+      
+
+      
+    </tbody>
+  </table>
+</section>
+
+
+  
+
+
+                    </div>
+                  </article>
+                
+              </div>
+            
+          </div>
+        
+      </div>
+    </div>
+  
+    <div>
+    <nav style="margin: 0px" class="custom-footer navbar navbar-inverse">
+    <div class="container">
+    <div class="row container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="col-sm-2 navbar-header">
+            <!-- <a href="/">
+                <img class="logo-image" src="/uploads/admin/2019-12-17-163606.430565logo.png" alt="Open Data Pakistan" title="Open Data Pakistan">
+            </a> -->
+            <!-- <button align="right" type="button" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false" data-target="#bs-footor-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button> -->
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- <div class="collapse navbar-collapse" id="bs-footor-navbar-collapse-1"> -->
+        <ul class="nav navbar-nav navbar-options">
+            <li class="nav-button-footer"><a href="/dataset">Data <span class="sr-only">(current)</span></a></li>
+            <li class="nav-button-footer"><a href="/organization">Organizations</a></li>
+            <li class="nav-button-footer"><a href="/showcase">Showcase</a></li>
+            <li class="nav-button-footer"><a href="/blog">Blog</a></li>
+            <li class="nav-button-footer"><a href="/contact">Connect</a></li>
+            <li class="nav-button-footer dropup">
+            <a  href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/pages/guidelines">Guidelines</a></li>
+            </ul>
+            </li>
+        </ul>
+        <!-- </div> -->
+    </div>
+</div>
+    </nav>
+</div>
+  
+    
+    
+    
+      
+    
+  
+    
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S6F144F4S5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+    
+  gtag('config', 'G-S6F144F4S5');
+</script>
+
+
+      
+  <script>document.getElementsByTagName('html')[0].className += ' js';</script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2019-08-12T02:58:13.49/jquery.min.js"></script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2019-08-12T02:58:13.49/:bundle:bootstrap/js/bootstrap.min.js;jed.min.js;moment-with-locales.js;select2/select2.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/:version:2019-08-12T02:58:13.46/:bundle:plugins/jquery.inherit.min.js;plugins/jquery.proxy-all.min.js;plugins/jquery.url-helpers.min.js;plugins/jquery.date-helpers.min.js;plugins/jquery.slug.min.js;plugins/jquery.slug-preview.min.js;plugins/jquery.truncator.min.js;plugins/jquery.masonry.min.js;plugins/jquery.form-warning.min.js;plugins/jquery.images-loaded.min.js;sandbox.min.js;module.min.js;pubsub.min.js;client.min.js;notify.min.js;i18n.min.js;main.min.js;modules/select-switch.min.js;modules/slug-preview.min.js;modules/basic-form.min.js;modules/confirm-action.min.js;modules/api-info.min.js;modules/autocomplete.min.js;modules/custom-fields.min.js;modules/data-viewer.min.js;modules/table-selectable-rows.min.js;modules/resource-form.min.js;modules/resource-upload-field.min.js;modules/resource-reorder.min.js;modules/resource-view-reorder.min.js;modules/follow.min.js;modules/activity-stream.min.js;modules/dashboard.min.js;modules/resource-view-embed.min.js;view-filters.min.js;modules/resource-view-filters-form.min.js;modules/resource-view-filters.min.js;modules/table-toggle-more.min.js;modules/dataset-visibility.min.js;modules/media-grid.min.js;modules/image-upload.min.js;modules/followers-counter.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/:version:2019-08-12T02:58:13.46/tracking.min.js"></script>
+<script type="text/javascript" src="/fanstatic/pages/:version:2020-04-14T13:16:26.53/:bundle:js/medium-editor.min.js;js/pages-editor.js;js/animate-scroll.js"></script></body>
+</html>
